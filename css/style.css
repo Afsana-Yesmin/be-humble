@@ -1,0 +1,205 @@
+.banner .main {
+  background-image: url(../image/banner.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-bottom: 173px;
+  background-position: center;
+}
+.banner .main .text h1 {
+  width: 826px;
+  font-size: 65px;
+  margin: auto;
+  padding-top: 173px;
+}
+.banner .main .text p {
+  width: 690px;
+  font-size: 18px;
+  margin: auto;
+  padding-top: 20px;
+}
+.banner .main .text a,
+.donate .main a,
+.blog .item-1 .text a,
+.blog .item-2 .text a,
+.subscribe .main a {
+  color: white;
+  background: #ff5959;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.donate .main {
+  text-align: center;
+  padding-bottom: 130px;
+}
+.donate .main .text h2 {
+  font-size: 40px;
+}
+.donate .main .text p {
+  font-size: 18px;
+  width: 691px;
+  margin: auto;
+}
+.donate .main .price-list {
+  width: 691px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 50px;
+}
+.donate .main .amount {
+  width: 100px;
+  height: 100px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 3px solid transparent;
+}
+.donate .main .amount:hover {
+  border: 3px solid #d33e3e;
+  background: rgb(250, 160, 160);
+  color: #fc1d1d;
+}
+.donate .main .entry input {
+  width: 591px;
+  height: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: rgb(86, 112, 112);
+}
+.plan {
+  text-align: center;
+  padding-bottom: 130px;
+}
+.plan .text h2 {
+  font-size: 45px;
+}
+.plan .text p {
+  font-size: 18px;
+  width: 691px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.plan .plan-menu {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.plan .plan-menu .plan-item {
+  width: 30%;
+  text-align: left;
+  padding-top: 67px;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 45px;
+  box-sizing: border-box;
+}
+
+.plan .plan-menu .item-1 {
+  background: rgba(79, 157, 166, 0.1);
+}
+.plan .plan-menu .item-2 {
+  background: rgba(255, 89, 89, 0.1);
+}
+.plan .plan-menu .item-3 {
+  background: rgb(250, 241, 164);
+}
+
+.blog .item-1 {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+}
+.blog .item-1 .text,
+.blog .item-2 .text {
+  width: 50%;
+}
+.blog .item-1 .text h2,
+.blog .item-2 .text h2 {
+  font-size: 45px;
+}
+.blog .item-1 .text p,
+.blog .item-2 .text p {
+  font-size: 18px;
+  width: 400px;
+}
+.blog .item-1 .image img {
+  width: 400px;
+}
+.blog .item-2 {
+  width: 1000px;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.blog .item-2 .image {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+}
+.blog .item-2 .image img {
+  margin-right: 30px;
+  width: 400px;
+}
+.subscribe {
+  padding-block: 40px;
+}
+.subscribe .text {
+  text-align: center;
+}
+.subscribe .text h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.subscribe .text p {
+  width: 400px;
+  margin: auto;
+}
+.subscribe .main {
+  width: 600px;
+  height: 150px;
+  margin: auto;
+  margin-block-start: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background: rgb(248, 208, 148);
+}
+.subscribe .main input {
+  width: 280px;
+  height: 30px;
+  background: rgb(190, 190, 190);
+  border: 0;
+}
+.subscribe .main a {
+  margin: 0;
+}
+/* footer start */
+footer {
+  width: 100%;
+  height: 70px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: #d33e3e;
+}
